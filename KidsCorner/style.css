@@ -1,0 +1,38 @@
+/*
+Theme Name: KidsCorner
+Theme URI: https://kidsCorner.care/
+Author: Saira Khan
+Author URI: https://sairakhan.care/
+Description: A comfort corner for your child
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: KidsCorner
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.vc_column-inner
+{
+    padding: 0px!important;
+
+}
+.navbar-nav
+{
+    float: right;
+}
+.navbar-nav li a {
+    color: #748890!important;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 12px 36px;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navbar-nav li a:hover{
+    color: #50b9e1!important;
+}
